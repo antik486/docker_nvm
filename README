@@ -1,0 +1,2 @@
+docker build  --no-cache -t antik486/jsdev .
+docker run -v $PWD/app:/DATA/app -i antik486/jsdev
